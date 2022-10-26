@@ -42,7 +42,7 @@ function suma(x, y) {
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
-  return y - x;
+  return x - y;
 }
 
 function multiplica(x, y) {
@@ -207,7 +207,7 @@ function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
-  return "Hola " + nombre;
+  return "Hola " + nombre + "!";
   
 }
 
@@ -238,7 +238,7 @@ function deEuroAdolar(euro){
   //Supongamos que 1 euro equivale a 1.20 dólares. Escribe un programa que reciba
   //como parámetro un número de euros y calcule el cambio en dólares.
   //Escribe tu código aquí
-  return euro * 1,20;
+  return euro * 1.20;
   
 }
 
@@ -257,10 +257,8 @@ function esVocal(letra){
   {
     return "Es vocal";
   }
-  else 
-  {
-    return "No es una vocal";
-  }
+    return "Dato incorrecto";
+  
 }
 
 
